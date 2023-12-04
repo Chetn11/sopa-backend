@@ -9,7 +9,7 @@ const productSchema=mongoose.Schema({
     description:{type:String, require:true},
     small_Image:{type:[String]}
 })
-
+      // connection
 const ProductModel=mongoose.model("product",productSchema);
 
 // const connection=mongoose.connect(process.env.DB);
